@@ -1,0 +1,15 @@
+#main-content
+{
+    margin-top: 100px;
+    line-height: 5px;
+    text-align: center;
+}
+#button
+{
+    margin-top: 50px;
+    
+}
+#button button
+{
+    padding: 15px 30px;
+}

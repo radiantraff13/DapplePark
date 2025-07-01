@@ -1,0 +1,168 @@
+section {
+  height: auto;
+}
+
+.home-section {
+  height: auto;
+  /* border: 1px solid black; */
+}
+
+.about-us {
+  border: 1px solid rgba(0, 0, 0, 0.384);
+}
+
+.paview {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.paview:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.paview1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.deall {
+  margin-left: 100px;
+  align-items: flex-end;
+  color: red;
+  background-color: rgb(255, 231, 11);
+  width: 100px;
+  height: 50px;
+  transform: rotate(-20deg);
+}
+
+.photosize {
+  height: 260px;
+  width: 100%;
+}
+
+.slidersize {
+  height: 250px;
+  width: 100%;
+}
+
+.viewsize {
+  height: 180px;
+  width: 100%;
+}
+
+/* about section CSS End */
+
+/* slider */
+#slider .col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+
+#slider .col-md-3 img {
+  width: 100%;
+  height: auto;
+}
+
+#slider .carousel-indicators li {
+  background-color: #cecece;
+}
+
+#slider .carousel-control-prev-icon,
+#slider .carousel-control-next-icon {
+  background-color: #cecece;
+
+}
+
+#slider .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/* next slider */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+#slidernext h1 {
+  font-family: 'Montserrat';
+}
+
+.carousel-nav-icon {
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .slidersize {
+    height: 200px;
+    /* width: 100%; */
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .photosize {
+    height: 150px;
+    /* width: 110px; */
+  }
+
+  .slidersize {
+    height: 100px;
+    /* width: 80px; */
+  }
+
+  .viewsize {
+    height: 120px;
+    /* width: 100%; */
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .slidersize {
+    height: 65px;
+    /* width: 80px; */
+  }
+
+  .viewsize {
+    height: 50px;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .photosize {
+    height: 80px;
+    /* width: 70px; */
+  }
+  .viewsize {
+    height: 35px;
+    /* width: 100%; */
+  }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+  .photosize {
+    height: 60px;
+    /* width: 60px; */
+  }
+
+  .slidersize {
+    height: 40px;
+    /* width: auto; */
+  }
+
+  .viewsize {
+    height: 20px;
+    /* width: 100%; */
+  }
+
+}

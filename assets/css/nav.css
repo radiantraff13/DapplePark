@@ -1,0 +1,141 @@
+.link-row {
+    text-align: right;
+}
+
+#f-header {
+    background-color: rgb(58, 71, 64);
+    height: auto;
+    padding-bottom: 10px;
+
+}
+option {
+    background-color: rgb(77, 69, 69);
+}
+#combo {
+
+    border: none;
+    background: transparent;
+    color: white;
+}
+
+.main-content a {
+    /* padding: 50px; */
+    text-decoration: none;
+    color: white;
+}
+
+#s-header {
+    /* float: right; */
+    height: auto;
+}
+
+
+.search-control {
+    /* border-radius: 15px; */
+    border: none;
+}
+
+.search-control:focus {
+    outline: none;
+}
+
+.flum {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px 0 2px 200px;
+}
+
+.btnsearch {
+    border: none;
+    background-color: transparent;
+}
+header .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#t-header {
+    background-color: rgb(223, 85, 85);
+    height: 7vh;
+    padding-top: 10px;
+}
+.btn-secondary
+{
+    background-color: rgb(223, 85, 85);
+    border: none;
+
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: rgb(223, 85, 85) !important;
+    border-color: none !important;
+}
+
+.dropdown-menu
+{
+    background-color: rgb(22, 22, 22);
+}
+.dropdown-item
+{
+    color: white;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(223, 85, 85);
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 85, 85);
+    background-color: rgb(223, 85, 85);
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(32, 28, 28, 0.664);
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-secondary.focus, .btn-secondary:focus {
+    color: #fff;
+    background-color: rgb(223, 85, 85);
+    border-color: none;
+    box-shadow: none;
+}
+.combo {
+    /* margin-top: 13px; */
+    border: none;
+    background: transparent;
+    color: white;
+    /* margin-left: 100px; */
+}
+.combo:hover
+{
+    color: white;
+}
+
+#t-header a {
+    text-decoration: none;
+}
+
+.dropdown-toggle
+{
+    background-color: rgb(223, 85, 85);
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .flum {
+        padding: 2px 0 2px 2px;
+    }
+    #t-header {
+        /* background-color: rgb(223, 85, 85); */
+        height: 9vh;
+        /* padding-top: 10px; */
+    }
+   
+}

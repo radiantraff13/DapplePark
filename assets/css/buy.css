@@ -1,0 +1,42 @@
+#p-name 
+{
+    text-align: center;
+    margin-top: 50px;
+}
+#stock
+{
+    text-align: center;
+    margin-top: 20px;
+}
+#image
+{
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+    
+}
+#details
+{
+    text-align: center;
+}
+#size
+{
+    margin-top: 70px;
+}
+#size button
+{
+    border: none;
+    background: transparent;
+}
+#n-product
+{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 767px)
+{
+    #size
+    {
+        margin-top: 30px;
+    }
+}
